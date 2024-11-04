@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,51 +16,66 @@
 </head>
 <body class="bg-gray-100 text-gray-900">
     <!-- Header Section -->
-    <header class="bg-gradient-to-r from-blue-500 to-indigo-600 p-4 md:p-8 shadow-lg">
+    <header class="bg-blue-600 p-4 md:p-8 shadow-lg">
         <div class="container mx-auto flex flex-wrap justify-between items-center">
-            <h1 class="text-white text-1xl md:text-4xl font-extrabold">TraxKing</h1>
+            <h1 class="text-white text-2xl md:text-4xl font-extrabold flex items-center">
+                
+                <img src="icons.png" alt="TraxKing Icon" class="w-8 h-8 mr-2 object-contain">
+                TraxKing
+            </h1>
             <nav class="flex flex-wrap space-x-4 md:space-x-6 text-lg md:text-xl">
-                <a href="#features" class="text-white hover:underline">Fitur</a>
-                <a href="#pricing" class="text-white hover:underline">Harga</a>
-                <a href="#contact" class="text-white hover:underline">Kontak</a>
+                <a href="#features" class="text-white hover:text-yellow-300 transition">Fitur</a>
+                <a href="#pricing" class="text-white hover:text-yellow-300 transition">Harga</a>
+                <a href="#contact" class="text-white hover:text-yellow-300 transition">Kontak</a>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-blue-500 to-green-500 text-white py-12 md:py-24 text-center transform hover:scale-105 transition duration-500 ease-in-out">
+    <section style="background-color: #ffdf36f2;" class="text-blue-600 py-12 md:py-24 text-center">
         <div class="container mx-auto px-4">
-            <h2 class="text-4xl md:text-4xl font-bold mb-6">Lacak Kendaraan Anda dengan Mudah!</h2>
-            <p class="text-lg md:text-1xl mb-10">Penyewaan alat GPS Tracking untuk mobil, motor, dan kendaraan lainnya dengan fitur modern dan harga terjangkau.</p>
-            <button class="bg-white text-blue-600 px-6 md:px-8 py-2 md:py-4 rounded-md font-bold text-lg md:text-1xl hover:bg-gray-200 transition duration-300 ease-in-out">Mulai Sewa Sekarang</button>
+            <!-- Logo Container dengan Latar Belakang Putih dan Sudut Melengkung -->
+            <div class="bg-white p-1 rounded-lg inline-block shadow-lg">
+                <img src="icons.png" alt="Hero Icon" class="mx-auto mb-4 w-16 h-16 object-contain">
+            </div>
+            
+            <!-- Judul -->
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Lacak Kendaraan Anda dengan Mudah!</h2>
+            
+            <!-- Deskripsi -->
+            <p class="text-lg md:text-2xl mb-10">Penyewaan alat GPS Tracking untuk mobil, motor, dan kendaraan lainnya dengan fitur modern dan harga terjangkau.</p>
+            
+            <!-- Tombol CTA -->
+            <button class="bg-blue-600 text-white px-6 md:px-8 py-2 md:py-4 rounded-md font-bold text-lg md:text-xl hover:bg-blue-700 transition duration-300 ease-in-out">Mulai Sewa Sekarang</button>
         </div>
     </section>
 
     <!-- Features Section -->
-    <section id="features" class="py-12 md:py-24">
+    <section id="features" class="py-12 md:py-24 bg-white">
         <div class="container mx-auto px-4">
-            <h3 class="text-4xl md:text-4xl font-bold text-center mb-12">Fitur Unggulan</h3>
+            <h3 class="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600">Fitur Unggulan</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
-                <div class="bg-white p-6 md:p-10 rounded-lg shadow-lg hover:shadow-1xl transform hover:-translate-y-2 transition duration-300 ease-in-out">
+                <div class="bg-gray-100 p-6 md:p-10 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition duration-300 ease-in-out">
+                    <!-- Icon Section -->
                     <div class="flex items-center mb-6">
                         <i class="fas fa-map-marker-alt text-blue-600 text-4xl mr-4"></i>
-                        <h4 class="text-1xl md:text-1xl font-bold">Pelacakan Real-Time</h4>
+                        <h4 class="text-xl md:text-2xl font-bold text-gray-800">Pelacakan Real-Time</h4>
                     </div>
-                    <p class="text-lg md:text-xl">Periksa lokasi kendaraan secara langsung melalui aplikasi kami, kapanpun dan dimanapun Anda berada.</p>
+                    <p class="text-lg md:text-xl text-gray-700">Periksa lokasi kendaraan secara langsung melalui aplikasi kami, kapanpun dan dimanapun Anda berada.</p>
                 </div>
-                <div class="bg-white p-6 md:p-10 rounded-lg shadow-lg hover:shadow-1xl transform hover:-translate-y-2 transition duration-300 ease-in-out">
+                <div class="bg-gray-100 p-6 md:p-10 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition duration-300 ease-in-out">
                     <div class="flex items-center mb-6">
-                        <i class="fas fa-route text-green-600 text-4xl mr-4"></i>
-                        <h4 class="text-1xl md:text-1xl font-bold">Rute dan Riwayat</h4>
+                        <i class="fas fa-route text-yellow-500 text-4xl mr-4"></i>
+                        <h4 class="text-xl md:text-2xl font-bold text-gray-800">Rute dan Riwayat</h4>
                     </div>
-                    <p class="text-lg md:text-xl">Catat semua rute yang telah dilalui kendaraan Anda, cocok untuk keperluan bisnis ataupun personal.</p>
+                    <p class="text-lg md:text-xl text-gray-700">Catat semua rute yang telah dilalui kendaraan Anda, cocok untuk keperluan bisnis ataupun personal.</p>
                 </div>
-                <div class="bg-white p-6 md:p-10 rounded-lg shadow-lg hover:shadow-1xl transform hover:-translate-y-2 transition duration-300 ease-in-out">
+                <div class="bg-gray-100 p-6 md:p-10 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition duration-300 ease-in-out">
                     <div class="flex items-center mb-6">
                         <i class="fas fa-bell text-yellow-500 text-4xl mr-4"></i>
-                        <h4 class="text-1xl md:text-1xl font-bold">Geofence Alerts</h4>
+                        <h4 class="text-xl md:text-2xl font-bold text-gray-800">Geofence Alerts</h4>
                     </div>
-                    <p class="text-lg md:text-xl">Terima pemberitahuan ketika kendaraan masuk atau keluar dari area yang telah ditentukan.</p>
+                    <p class="text-lg md:text-xl text-gray-700">Terima pemberitahuan ketika kendaraan masuk atau keluar dari area yang telah ditentukan.</p>
                 </div>
             </div>
         </div>
@@ -69,43 +84,43 @@
     <!-- Pricing Section -->
     <section id="pricing" class="bg-gray-200 py-12 md:py-24">
         <div class="container mx-auto px-4">
-            <h3 class="text-4xl md:text-4xl font-bold text-center mb-12">Paket Harga</h3>
+            <h3 class="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600">Paket Harga</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
-                <div class="bg-white p-6 md:p-12 rounded-lg shadow-lg hover:shadow-1xl transform hover:scale-105 transition duration-300 ease-in-out">
+                <div class="bg-white p-6 md:p-12 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out">
                     <div class="flex items-center mb-6">
-                        <i class="fas fa-car text-pink-500 text-4xl mr-4"></i>
-                        <h4 class="text-1xl md:text-1xl font-bold mb-4">Paket Dasar</h4>
+                        <i class="fas fa-car text-yellow-500 text-4xl mr-4"></i>
+                        <h4 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Paket Dasar</h4>
                     </div>
-                    <p class="text-lg md:text-1xl mb-6">Mulai dari Rp 200.000/bulan</p>
-                    <ul class="text-lg md:text-xl mb-6 space-y-2">
-                        <li>- Pelacakan real-time</li>
-                        <li>- Notifikasi dasar</li>
+                    <p class="text-lg md:text-xl mb-6 text-gray-700">Mulai dari Rp 200.000/bulan</p>
+                    <ul class="text-lg md:text-xl mb-6 space-y-2 text-left list-disc list-inside text-gray-700">
+                        <li>Pelacakan real-time</li>
+                        <li>Notifikasi dasar</li>
                     </ul>
                     <button class="bg-blue-600 text-white px-6 md:px-8 py-2 md:py-4 rounded-md text-lg md:text-xl hover:bg-blue-700 transition duration-300 ease-in-out">Pesan Sekarang</button>
                 </div>
-                <div class="bg-white p-6 md:p-12 rounded-lg shadow-lg hover:shadow-1xl transform hover:scale-105 transition duration-300 ease-in-out">
+                <div class="bg-white p-6 md:p-12 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out">
                     <div class="flex items-center mb-6">
-                        <i class="fas fa-car-side text-purple-500 text-4xl mr-4"></i>
-                        <h4 class="text-1xl md:text-1xl font-bold mb-4">Paket Premium</h4>
+                        <i class="fas fa-car-side text-yellow-500 text-4xl mr-4"></i>
+                        <h4 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Paket Premium</h4>
                     </div>
-                    <p class="text-lg md:text-1xl mb-6">Mulai dari Rp 350.000/bulan</p>
-                    <ul class="text-lg md:text-xl mb-6 space-y-2">
-                        <li>- Semua fitur Paket Dasar</li>
-                        <li>- Riwayat perjalanan 30 hari</li>
-                        <li>- Geofence alerts</li>
+                    <p class="text-lg md:text-xl mb-6 text-gray-700">Mulai dari Rp 350.000/bulan</p>
+                    <ul class="text-lg md:text-xl mb-6 space-y-2 text-left list-disc list-inside text-gray-700">
+                        <li>Semua fitur Paket Dasar</li>
+                        <li>Riwayat perjalanan 30 hari</li>
+                        <li>Geofence alerts</li>
                     </ul>
                     <button class="bg-blue-600 text-white px-6 md:px-8 py-2 md:py-4 rounded-md text-lg md:text-xl hover:bg-blue-700 transition duration-300 ease-in-out">Pesan Sekarang</button>
                 </div>
-                <div class="bg-white p-6 md:p-12 rounded-lg shadow-lg hover:shadow-1xl transform hover:scale-105 transition duration-300 ease-in-out">
+                <div class="bg-white p-6 md:p-12 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition duration-300 ease-in-out">
                     <div class="flex items-center mb-6">
-                        <i class="fas fa-truck text-teal-500 text-4xl mr-4"></i>
-                        <h4 class="text-1xl md:text-1xl font-bold mb-4">Paket Bisnis</h4>
+                        <i class="fas fa-truck text-yellow-500 text-4xl mr-4"></i>
+                        <h4 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Paket Bisnis</h4>
                     </div>
-                    <p class="text-lg md:text-1xl mb-6">Mulai dari Rp 500.000/bulan</p>
-                    <ul class="text-lg md:text-xl mb-6 space-y-2">
-                        <li>- Semua fitur Paket Premium</li>
-                        <li>- Multiple vehicles tracking</li>
-                        <li>- Laporan khusus bisnis</li>
+                    <p class="text-lg md:text-xl mb-6 text-gray-700">Mulai dari Rp 500.000/bulan</p>
+                    <ul class="text-lg md:text-xl mb-6 space-y-2 text-left list-disc list-inside text-gray-700">
+                        <li>Semua fitur Paket Premium</li>
+                        <li>Multiple vehicles tracking</li>
+                        <li>Laporan khusus bisnis</li>
                     </ul>
                     <button class="bg-blue-600 text-white px-6 md:px-8 py-2 md:py-4 rounded-md text-lg md:text-xl hover:bg-blue-700 transition duration-300 ease-in-out">Pesan Sekarang</button>
                 </div>
@@ -114,67 +129,70 @@
     </section>
 
     <!-- Best Investment Section -->
-    <section class="card py-12 md:py-24 bg-gray-100">
+    <section class="py-12 md:py-24 bg-white">
         <div class="container mx-auto text-center px-4">
-            <div class="bg-blue-500 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition mb-4">
-                <h2 class="text-4xl md:text-4xl font-bold text-white mb-6"><i class="fa-solid fa-map"></i> Investasi Harga Terbaik Asset Anda</h2>
-                <p class="text-lg md:text-1xl mb-10 text-white">
-                    Traxking memberikan pilihan harga gps server sesuai dengan kebutuhan Anda. Server GPS Traxking FREE Trial yang kami berikan sudah termasuk Google Maps Premium, Software GPS Tracker dengan Fasilitas Location Update 24 Non Stop, Google Maps Navigation, dan Google Street View. Kami Memastikan 1 Akun Bisa untuk Banyak Kendaraan.
+            <div class="bg-blue-600 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition mb-4">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 flex items-center justify-center">
+                    <i class="fa-solid fa-map text-yellow-500 mr-2"></i>
+                    Investasi Harga Terbaik Asset Anda
+                </h2>
+                <p class="text-lg md:text-2xl mb-10 text-white">
+                    TraxKing memberikan pilihan harga GPS server sesuai dengan kebutuhan Anda. Server GPS TraxKing FREE Trial yang kami berikan sudah termasuk Google Maps Premium, Software GPS Tracker dengan Fasilitas Location Update 24 Non Stop, Google Maps Navigation, dan Google Street View. Kami Memastikan 1 Akun Bisa untuk Banyak Kendaraan.
                 </p>
                 <p class="text-lg font-semibold text-white">Trial Server GPS Gratis Tanpa Syarat dan Ketentuan Apapun.</p>
             </div>
             <!-- Pricing Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <!-- Free Trial Package -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition">
-                    <h3 class="text-1xl md:text-4xl font-bold text-blue-500 mb-4">FREE</h3>
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition">
+                    <h3 class="text-3xl font-bold text-blue-600 mb-4">FREE</h3>
                     <p class="text-lg text-gray-700 mb-4">Paket 3 Bulan Murah Banget Paket 3 Bulan Active. FREE Akses Semua Fitur Lengkap. 1 Akun Banyak Kendaraan</p>
-                    <p class="text-1xl font-bold text-blue-600">PAKET 3 BULAN</p>
+                    <p class="text-xl font-bold text-blue-600">PAKET 3 BULAN</p>
                     <p class="text-xl text-gray-700 mt-4">15 rb / bln</p>
                     <p class="text-lg text-gray-500">Bayar 3 Bln Hanya 45rb</p>
                 </div>
 
                 <!-- 6 Month Package -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition">
-                    <h3 class="text-1xl md:text-4xl font-bold text-blue-500 mb-4">Paket 6 Bulan</h3>
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition">
+                    <h3 class="text-3xl font-bold text-blue-600 mb-4">Paket 6 Bulan</h3>
                     <p class="text-lg text-gray-700 mb-4">Murah Banget Paket 6 Bulan Active. FREE Akses Semua Fitur Lengkap. 1 Akun Banyak Kendaraan</p>
-                    <p class="text-1xl font-bold text-blue-600">PAKET 6 BULAN</p>
+                    <p class="text-xl font-bold text-blue-600">PAKET 6 BULAN</p>
                     <p class="text-xl text-gray-700 mt-4">14 rb / bln</p>
                     <p class="text-lg text-gray-500">Bayar 6 Bln Hanya 84 rb</p>
                 </div>
 
                 <!-- Super Package -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition">
-                    <h3 class="text-1xl md:text-4xl font-bold text-blue-500 mb-4">Paket Super</h3>
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition">
+                    <h3 class="text-3xl font-bold text-blue-600 mb-4">Paket Super</h3>
                     <p class="text-lg text-gray-700 mb-4">Nikmati Paket 12 Bulan Active. FREE Akses Semua Fitur Lengkap. 1 Akun Banyak Kendaraan</p>
-                    <p class="text-1xl font-bold text-blue-600">PAKET 12 BULAN</p>
+                    <p class="text-xl font-bold text-blue-600">PAKET 12 BULAN</p>
                     <p class="text-xl text-gray-700 mt-4">11.750 / bln</p>
                     <p class="text-lg text-gray-500">Bayar Setahun Hanya 141 rb</p>
                 </div>
 
                 <!-- Gokil Package -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition">
-                    <h3 class="text-1xl md:text-4xl font-bold text-blue-500 mb-4">Paket Gokil</h3>
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition">
+                    <h3 class="text-3xl font-bold text-blue-600 mb-4">Paket Gokil</h3>
                     <p class="text-lg text-gray-700 mb-4">Gokil Banget Paket 24 Bulan Active. FREE Akses Semua Fitur Lengkap. 1 Akun Banyak Kendaraan</p>
-                    <p class="text-1xl font-bold text-blue-600">PAKET 2 TAHUN</p>
+                    <p class="text-xl font-bold text-blue-600">PAKET 2 TAHUN</p>
                     <p class="text-xl text-gray-700 mt-4">10.459 / bln</p>
                     <p class="text-lg text-gray-500">Bayar 2 Tahun Hanya 252 rb</p>
                 </div>
 
                 <!-- Reseller Package -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition col-span-1 md:col-span-2 lg:col-span-1">
-                    <h3 class="text-1xl md:text-4xl font-bold text-blue-500 mb-4">Paket Reseller</h3>
+                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition col-span-1 md:col-span-2 lg:col-span-1">
+                    <h3 class="text-3xl font-bold text-blue-600 mb-4">Paket Reseller</h3>
                     <p class="text-lg text-gray-700 mb-4">CALL US</p>
                     <p class="text-lg text-gray-500">Layanan Coorporate untuk Reseller Server GPS khusus untuk Pedagang, Penjual, Distributor GPS Tracker. FREE Hak Akses Penuh Administrator. Kelola User dan Unit Sendiri.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="pricing" class="bg-gray-200 py-12 md:py-24">
+    <!-- Testimonial Section -->
+    <section class="bg-gray-200 py-12 md:py-24">
         <div class="container mx-auto text-center px-4">
-            <h2 class="text-4xl md:text-4xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS Google PlayStore</h2>
-            <p class="text-4xl text-yellow-500 mb-8">★★★★★ 5/5</p>
+            <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS Google PlayStore</h2>
+            <p class="text-4xl text-yellow-400 mb-8">★★★★★ 5/5</p>
             
             <!-- Testimonial Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -267,48 +285,47 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <!-- Feature Cards Section -->
-    <section class="py-12 md:py-24 bg-gray-100">
+    <section class="py-12 md:py-24 bg-white">
         <div class="container mx-auto text-center px-4">
-            <h2 class="text-4xl md:text-4xl font-bold text-blue-600 mb-8">Disukai Semua Pemakai GPS</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-8">Disukai Semua Pemakai GPS</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <!-- Card 1 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
                     <i class="fas fa-bolt text-yellow-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Cepat Online!</h3>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Cepat Online!</h3>
                     <p class="text-lg text-gray-700">HANYA 2,9 Menit GPS Tracker Bisa Langsung Online! Hemat WAKTU dan TENAGA Tak Perlu Repot Bikin Server Sendiri!</p>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-headset text-green-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Bantuan 24 Jam</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-headset text-yellow-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Bantuan 24 Jam</h3>
                     <p class="text-lg text-gray-700">Semua Kesulitan Setting dan Layanan Kami BANTU 24 Jam. Hanya Yang Terbaik di Indonesia</p>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-server text-blue-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Fitur Server GPS</h3>
-                    <p class="text-lg text-gray-700">Traxking Menyediakan Semua Fitur Server GPS Tracker, 1000% ASLI Indonesia. Ingin MIGRASI SERVER atau dilayani 24 Jam Non STOP? COBA GRATIS SEKARANG.</p>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-server text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Fitur Server GPS</h3>
+                    <p class="text-lg text-gray-700">TraxKing Menyediakan Semua Fitur Server GPS Tracker, 1000% ASLI Indonesia. Ingin MIGRASI SERVER atau dilayani 24 Jam Non STOP? COBA GRATIS SEKARANG.</p>
                     <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Lihat Fitur Lengkap</button>
-                    <button class="mt-4 bg-gray-600 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition">Lihat Demo Live Traxking</button>
+                    <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600 transition">Lihat Demo Live TraxKing</button>
                 </div>
 
                 <!-- Card 4 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-satellite-dish text-purple-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Support Device</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-satellite-dish text-yellow-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Support Device</h3>
                     <p class="text-lg text-gray-700">Lebih Dari 3401+ GPS Device Support:</p>
                     <ul class="text-gray-700 mt-4 text-left list-disc list-inside">
                         <li>GPS Concox GT06N</li>
                         <li>GPS ET200 / WELITE</li>
                         <li>GPS TRACKER OBD</li>
-                        <li>Gps tk905</li>
+                        <li>GPS TK905</li>
                         <li>GPS TKSTAR</li>
                         <li>GPS PORTABLE</li>
                     </ul>
@@ -316,58 +333,58 @@
                 </div>
 
                 <!-- Card 5 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-clock text-indigo-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Realtime Tracking</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-clock text-yellow-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Realtime Tracking</h3>
                     <p class="text-lg text-gray-700">Server GPS Indonesia memberikan tracking dengan kualitas terbaik. Data GPS Realtime dengan interval data hingga 5-10 detik.</p>
                 </div>
 
                 <!-- Card 6 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-map-marked-alt text-red-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Google Maps API</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-map-marked-alt text-yellow-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Google Maps API</h3>
                     <p class="text-lg text-gray-700">Integrasi MAPS penting dalam server GPS, sudah terhubung dengan GOOGLE MAP + Live Traffic.</p>
                 </div>
 
                 <!-- Card 7 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-history text-teal-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">PlayBack</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-history text-yellow-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">PlayBack</h3>
                     <p class="text-lg text-gray-700">Data yang dapat diunduh dalam bentuk Excel dan grafik untuk melihat laporan perjalanan atau memutar kembali perjalanan.</p>
                 </div>
 
                 <!-- Card 8 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
                     <i class="fas fa-map-pin text-yellow-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Penanda Lokasi</h3>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Penanda Lokasi</h3>
                     <p class="text-lg text-gray-700">Menentukan titik lokasi yang sering dikunjungi untuk memudahkan dalam laporan perjalanan.</p>
                 </div>
 
                 <!-- Card 9 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-directions text-pink-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Petunjuk Arah</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-directions text-yellow-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Petunjuk Arah</h3>
                     <p class="text-lg text-gray-700">Navigasi mudah dalam aplikasi Android dan iPhone dengan Tombol Navigasi.</p>
                 </div>
 
                 <!-- Card 10 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-file-alt text-blue-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Report History</h3>
-                    <p class="text-lg text-gray-700">Laporan 100 hari: perjalanan, parkir, jarak tempuh, waktu kerja, BBM, geofance, dan lainnya.</p>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-file-alt text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Report History</h3>
+                    <p class="text-lg text-gray-700">Laporan 100 hari: perjalanan, parkir, jarak tempuh, waktu kerja, BBM, geofence, dan lainnya.</p>
                 </div>
 
                 <!-- Card 11 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-power-off text-red-500 text-4xl mb-4"></i> 
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Cut Engine</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-power-off text-yellow-500 text-4xl mb-4"></i> 
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Cut Engine</h3>
                     <p class="text-lg text-gray-700">Fitur Cut Engine memungkinkan mematikan mesin dari jarak jauh melalui aplikasi untuk keamanan.</p>
                 </div>
 
                 <!-- Card 12 -->
-                <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg hover:shadow-1xl transition transform hover:scale-105 duration-300">
-                    <i class="fas fa-border-all text-green-500 text-4xl mb-4"></i>
-                    <h3 class="text-1xl md:text-1xl font-bold text-blue-500 mb-4">Batas Area</h3>
+                <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
+                    <i class="fas fa-border-all text-yellow-500 text-4xl mb-4"></i>
+                    <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Batas Area</h3>
                     <p class="text-lg text-gray-700">Pengaturan batas area kendaraan dengan fitur geofence untuk setiap kendaraan.</p>
                 </div>
             </div>
@@ -375,24 +392,24 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-12 md:py-24">
+    <section id="contact" class="py-12 md:py-24 bg-blue-50">
         <div class="container mx-auto text-center px-4">
-            <h3 class="text-4xl md:text-4xl font-bold mb-6">Hubungi Kami</h3>
-            <p class="text-lg md:text-1xl mb-12">Ada pertanyaan? Kami siap membantu Anda!</p>
+            <h3 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">Hubungi Kami</h3>
+            <p class="text-lg md:text-2xl mb-12 text-gray-700">Ada pertanyaan? Kami siap membantu Anda!</p>
             <form class="max-w-lg mx-auto">
                 <div class="flex items-center mb-6">
-                    <i class="fas fa-user text-blue-600 text-1xl mr-4"></i>
-                    <input type="text" placeholder="Nama Anda" class="w-full p-4 text-lg border border-gray-300 rounded-lg">
+                    <i class="fas fa-user text-blue-600 text-xl mr-4"></i>
+                    <input type="text" placeholder="Nama Anda" class="w-full p-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
                 </div>
                 <div class="flex items-center mb-6">
-                    <i class="fas fa-envelope text-blue-600 text-1xl mr-4"></i>
-                    <input type="email" placeholder="Email Anda" class="w-full p-4 text-lg border border-gray-300 rounded-lg">
+                    <i class="fas fa-envelope text-blue-600 text-xl mr-4"></i>
+                    <input type="email" placeholder="Email Anda" class="w-full p-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
                 </div>
                 <div class="flex items-start mb-6">
-                    <i class="fas fa-comment text-blue-600 text-1xl mr-4"></i>
-                    <textarea placeholder="Pesan Anda" class="w-full p-4 text-lg border border-gray-300 rounded-lg"></textarea>
+                    <i class="fas fa-comment text-blue-600 text-xl mr-4 mt-2"></i>
+                    <textarea placeholder="Pesan Anda" class="w-full p-4 text-lg border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
                 </div>
-                <button type="submit" class="bg-blue-600 text-white px-6 md:px-10 py-2 md:py-4 rounded-md text-lg md:text-1xl hover:bg-blue-700 transition">Kirim Pesan</button>
+                <button type="submit" class="bg-blue-600 text-white px-6 md:px-10 py-2 md:py-4 rounded-md text-lg md:text-xl hover:bg-blue-700 transition">Kirim Pesan</button>
             </form>
         </div>
     </section>
