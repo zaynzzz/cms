@@ -40,7 +40,7 @@
             </div>
             
             <!-- Judul -->
-            <h2 class="text-4xl md:text-5xl font-bold mb-6">Lacak Kendaraan Anda dengan Mudah! Let Me Check</h2>
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Lacak Kendaraan Anda dengan Mudah!</h2>
             
             <!-- Deskripsi -->
             <p class="text-lg md:text-2xl mb-10">Penyewaan alat GPS Tracking untuk mobil, motor, dan kendaraan lainnya dengan fitur modern dan harga terjangkau.</p>
