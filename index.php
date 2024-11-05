@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     
     <!-- Favicon -->
-    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="icons.png" type="image/png">
     
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -417,7 +417,7 @@
     <!-- Footer -->
     <footer class="bg-blue-600 text-white py-6">
         <div class="container mx-auto text-center">
-            <p class="text-lg md:text-xl">&copy; 2024 GPS GO. Semua hak cipta dilindungi.</p>
+            <p class="text-sm md:text-s">&copy; 2024 GPS GO. Semua hak cipta dilindungi.</p>
         </div>
     </footer>
 </body>
