@@ -191,7 +191,7 @@
     <!-- Testimonial Section -->
     <section class="bg-gray-200 py-12 md:py-24">
         <div class="container mx-auto text-center px-4">
-            <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS GOogle PlayStore</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS Google PlayStore</h2>
             <p class="text-4xl text-yellow-400 mb-8">★★★★★ 5/5</p>
             
             <!-- Testimonial Grid -->
