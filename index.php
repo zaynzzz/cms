@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penyewaan GPS Tracking untuk Kendaraan | TraxKing</title>
+    <title>Penyewaan GPS Tracking untuk Kendaraan | GPS GO</title>
     
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -20,8 +20,8 @@
         <div class="container mx-auto flex flex-wrap justify-between items-center">
             <h1 class="text-white text-2xl md:text-4xl font-extrabold flex items-center">
                 
-                <img src="icons.png" alt="TraxKing Icon" class="w-8 h-8 mr-2 object-contain">
-                TraxKing
+                <img src="icons.png" alt="GPS GO Icon" class="w-8 h-8 mr-2 object-contain">
+                GPS GO
             </h1>
             <nav class="flex flex-wrap space-x-4 md:space-x-6 text-lg md:text-xl">
                 <a href="#features" class="text-white hover:text-yellow-300 transition">Fitur</a>
@@ -137,7 +137,7 @@
                     Investasi Harga Terbaik Asset Anda
                 </h2>
                 <p class="text-lg md:text-2xl mb-10 text-white">
-                    TraxKing memberikan pilihan harga GPS server sesuai dengan kebutuhan Anda. Server GPS TraxKing FREE Trial yang kami berikan sudah termasuk Google Maps Premium, Software GPS Tracker dengan Fasilitas Location Update 24 Non Stop, Google Maps Navigation, dan Google Street View. Kami Memastikan 1 Akun Bisa untuk Banyak Kendaraan.
+                    GPS GO memberikan pilihan harga GPS server sesuai dengan kebutuhan Anda. Server GPS GPS GO FREE Trial yang kami berikan sudah termasuk Google Maps Premium, Software GPS Tracker dengan Fasilitas Location Update 24 Non Stop, Google Maps Navigation, dan Google Street View. Kami Memastikan 1 Akun Bisa untuk Banyak Kendaraan.
                 </p>
                 <p class="text-lg font-semibold text-white">Trial Server GPS Gratis Tanpa Syarat dan Ketentuan Apapun.</p>
             </div>
@@ -191,7 +191,7 @@
     <!-- Testimonial Section -->
     <section class="bg-gray-200 py-12 md:py-24">
         <div class="container mx-auto text-center px-4">
-            <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS Google PlayStore</h2>
+            <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS GOogle PlayStore</h2>
             <p class="text-4xl text-yellow-400 mb-8">★★★★★ 5/5</p>
             
             <!-- Testimonial Grid -->
@@ -311,9 +311,9 @@
                 <div class="bg-gray-100 p-6 md:p-8 rounded-lg shadow-lg hover:shadow-2xl transition transform hover:scale-105 duration-300">
                     <i class="fas fa-server text-blue-600 text-4xl mb-4"></i>
                     <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-4">Fitur Server GPS</h3>
-                    <p class="text-lg text-gray-700">TraxKing Menyediakan Semua Fitur Server GPS Tracker, 1000% ASLI Indonesia. Ingin MIGRASI SERVER atau dilayani 24 Jam Non STOP? COBA GRATIS SEKARANG.</p>
+                    <p class="text-lg text-gray-700">GPS GO Menyediakan Semua Fitur Server GPS Tracker, 1000% ASLI Indonesia. Ingin MIGRASI SERVER atau dilayani 24 Jam Non STOP? COBA GRATIS SEKARANG.</p>
                     <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Lihat Fitur Lengkap</button>
-                    <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600 transition">Lihat Demo Live TraxKing</button>
+                    <button class="mt-4 bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600 transition">Lihat Demo Live GPS GO</button>
                 </div>
 
                 <!-- Card 4 -->
@@ -417,7 +417,7 @@
     <!-- Footer -->
     <footer class="bg-blue-600 text-white py-6">
         <div class="container mx-auto text-center">
-            <p class="text-lg md:text-xl">&copy; 2024 TraxKing. Semua hak cipta dilindungi.</p>
+            <p class="text-lg md:text-xl">&copy; 2024 GPS GO. Semua hak cipta dilindungi.</p>
         </div>
     </footer>
 </body>
