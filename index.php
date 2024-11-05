@@ -82,7 +82,7 @@
     </section>
 
     <!-- Pricing Section -->
-    <section id="pricing" class="bg-gray-200 py-12 md:py-24">
+    <section id="pricing" class="bg-yellow-300 py-12 md:py-24">
         <div class="container mx-auto px-4">
             <h3 class="text-4xl md:text-5xl font-bold text-center mb-12 text-blue-600">Paket Harga</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
@@ -189,7 +189,7 @@
         </section>
 
     <!-- Testimonial Section -->
-    <section class="bg-gray-200 py-12 md:py-24">
+    <section class="bg-yellow-300 py-12 md:py-24">
         <div class="container mx-auto text-center px-4">
             <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS Google PlayStore</h2>
             <p class="text-4xl text-yellow-400 mb-8">★★★★★ 5/5</p>
@@ -392,7 +392,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-12 md:py-24 bg-blue-50">
+    <section id="contact" class="py-12 md:py-24 bg-yellow-300">
         <div class="container mx-auto text-center px-4">
             <h3 class="text-4xl md:text-5xl font-bold mb-6 text-blue-600">Hubungi Kami</h3>
             <p class="text-lg md:text-2xl mb-12 text-gray-700">Ada pertanyaan? Kami siap membantu Anda!</p>
