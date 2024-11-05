@@ -192,8 +192,14 @@
     <section class="bg-yellow-300 py-12 md:py-24">
         <div class="container mx-auto text-center px-4">
             <h2 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Ratusan Review Positif Server GPS Google PlayStore</h2>
-            <p class="text-4xl text-yellow-400 mb-8">★★★★★ 5/5</p>
-            
+            <!-- Rating Section in Center -->
+        <div class="flex justify-center mb-12">
+            <div class="bg-white p-4 rounded-lg inline-flex items-center shadow-lg space-x-2">
+                <p class="text-4xl text-yellow-400" aria-label="Rating: 5 out of 5 stars">★★★★★</p>
+                <p class="text-lg text-gray-700 font-semibold">5/5</p>
+            </div>
+        </div>
+
             <!-- Testimonial Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <!-- Testimonial 1 -->
